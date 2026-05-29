@@ -1,0 +1,11 @@
+name: GitHub Example
+on:
+ push:
+  branches: [main]
+ jobs:
+  demo:
+   runs-on: ubuntu-latest
+   steps:
+    - name: checkout repository_dispatch
+      runs: echo "test.java"
+   
